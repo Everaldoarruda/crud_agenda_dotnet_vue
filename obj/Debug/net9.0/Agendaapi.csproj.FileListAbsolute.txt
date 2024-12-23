@@ -146,3 +146,4 @@ C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\r
 C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\Agendaapi.pdb
 C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\Agendaapi.genruntimeconfig.cache
 C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\ref\Agendaapi.dll
+c:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\Agendaapi.sourcelink.json
