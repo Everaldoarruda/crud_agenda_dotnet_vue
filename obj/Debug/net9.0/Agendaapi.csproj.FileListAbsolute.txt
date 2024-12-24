@@ -147,3 +147,4 @@ C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\A
 C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\Agendaapi.genruntimeconfig.cache
 C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\ref\Agendaapi.dll
 c:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\obj\Debug\net9.0\Agendaapi.sourcelink.json
+C:\Users\evera\OneDrive\Área de Trabalho\AgendaAPI\Agendaapi\bin\Debug\net9.0\package-lock.json

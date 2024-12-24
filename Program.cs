@@ -17,8 +17,9 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment())
 {
+    
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AgendaApi v1"));
