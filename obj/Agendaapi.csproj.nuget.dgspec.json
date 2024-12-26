@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\evera\\OneDrive\\Área de Trabalho\\AgendaAPI\\Agendaapi\\Agendaapi.csproj": {}
+    "C:\\projetos\\Agendaapi\\Agendaapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\evera\\OneDrive\\Área de Trabalho\\AgendaAPI\\Agendaapi\\Agendaapi.csproj": {
+    "C:\\projetos\\Agendaapi\\Agendaapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evera\\OneDrive\\Área de Trabalho\\AgendaAPI\\Agendaapi\\Agendaapi.csproj",
+        "projectUniqueName": "C:\\projetos\\Agendaapi\\Agendaapi.csproj",
         "projectName": "Agendaapi",
-        "projectPath": "C:\\Users\\evera\\OneDrive\\Área de Trabalho\\AgendaAPI\\Agendaapi\\Agendaapi.csproj",
+        "projectPath": "C:\\projetos\\Agendaapi\\Agendaapi.csproj",
         "packagesPath": "C:\\Users\\evera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evera\\OneDrive\\Área de Trabalho\\AgendaAPI\\Agendaapi\\obj\\",
+        "outputPath": "C:\\projetos\\Agendaapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

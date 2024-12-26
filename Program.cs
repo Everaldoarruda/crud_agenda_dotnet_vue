@@ -1,14 +1,14 @@
-using Microsoft.EntityFrameworkCore; 
-using Microsoft.OpenApi.Models; 
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using AgendaApi.Data;
- 
+
 var builder = WebApplication.CreateBuilder(args);
 
-
+// Adicione serviços ao contêiner.
 builder.Services.AddDbContext<AgendaContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("AgendaDatabase")));
 
-builder.Services.AddControllers(); // o programa não estava fazendo o dotnet run Certifique sempre de verificar essa builder de que este método está incluído.
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -17,16 +17,17 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AgendaApi v1"));
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection();  // Redireciona HTTP para HTTPS
 
-app.MapControllers(); // verifique sempre se a mapControllers foi add o app
+app.UseRouting();
+app.UseAuthorization();
+app.MapControllers();
 
 app.Run();
