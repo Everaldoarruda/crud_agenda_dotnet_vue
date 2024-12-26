@@ -1,5 +1,38 @@
-# Vue 3 + Vite
+# Agenda API com Frontend Vue.js
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Visão Geral
+Este projeto consiste em uma API  para gerenciar uma agenda de contatos, construída com .NET e um frontend interativo desenvolvido com Vue.js.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+
+## Pré-requisitos
+* [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/)
+* [Node.js](https://nodejs.org/)
+* [Vue CLI](https://cli.vuejs.org/)
+]
+
+## Desenvolvimento
+* **Editor de código:** Visual Studio Code.
+* **Banco de dados:** SQLite (incluído no projeto).
+
+  
+* **Backend:**
+
+* **.NET 6**
+
+* **Entity Framework Core**
+
+* **SQLite**
+
+* **Swagger**
+
+* **Frontend:**
+
+* **Vue.js**
+
+* **PrimeVue**
+
+* **Vue Router**
+
+* **Axios**
+
+
