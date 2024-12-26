@@ -35,4 +35,6 @@ Este projeto consiste em uma API  para gerenciar uma agenda de contatos, constru
 
 * **Axios**
 
+* **Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.*
+
 
