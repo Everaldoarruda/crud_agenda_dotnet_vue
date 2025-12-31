@@ -4,3 +4,13 @@ GET {{Agendaapi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{Agendaapi_HostAddress}}/swagger/index.html
+Accept: text/html
+
+###
+
+GET {{Agendaapi_HostAddress}}/swagger/v1/swagger.json
+Accept: application/json
+
+###

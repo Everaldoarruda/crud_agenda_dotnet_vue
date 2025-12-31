@@ -1,12 +1,18 @@
 import { createApp } from 'vue';
-import PrimeVue from 'pimevue/config';
-import 'primevue/resources/themes/saga-blue/theme.css';
-import 'primevue/resources/themes/saga-blue/theme.css';
-import 'primevue/resources/primevue.min.css'; // Estilo base
-import 'primeflex/primeflex.css'; // Utilitários CSS
-import router from './router'; // Configuração de rotas
+import PrimeVue from 'primevue/config';
+import Aura from '@primevue/themes/aura';
+import App from './App.vue';
+import 'primeicons/primeicons.css';
+import router from './router';
 
 const app = createApp(App);
-app.use(PrimeVue);
+app.use(PrimeVue, {
+    theme: {
+        preset: Aura,
+        options: {
+            darkModeSelector: false
+        }
+    }
+});
 app.use(router);
 app.mount('#app');

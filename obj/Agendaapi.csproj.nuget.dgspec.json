@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Agendaapi\\Agendaapi.csproj": {}
+    "C:\\Users\\ejmar\\OneDrive\\Área de Trabalho\\projetos ppessoais\\crud_agenda_dotnet_vue\\Agendaapi.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Agendaapi\\Agendaapi.csproj": {
+    "C:\\Users\\ejmar\\OneDrive\\Área de Trabalho\\projetos ppessoais\\crud_agenda_dotnet_vue\\Agendaapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Agendaapi\\Agendaapi.csproj",
+        "projectUniqueName": "C:\\Users\\ejmar\\OneDrive\\Área de Trabalho\\projetos ppessoais\\crud_agenda_dotnet_vue\\Agendaapi.csproj",
         "projectName": "Agendaapi",
-        "projectPath": "C:\\projetos\\Agendaapi\\Agendaapi.csproj",
-        "packagesPath": "C:\\Users\\evera\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Agendaapi\\obj\\",
+        "projectPath": "C:\\Users\\ejmar\\OneDrive\\Área de Trabalho\\projetos ppessoais\\crud_agenda_dotnet_vue\\Agendaapi.csproj",
+        "packagesPath": "C:\\Users\\ejmar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ejmar\\OneDrive\\Área de Trabalho\\projetos ppessoais\\crud_agenda_dotnet_vue\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\evera\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ejmar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.sanasa.com.br/api/v4/groups/178/-/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -44,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -53,10 +48,6 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
-            },
-            "Microsoft.AspNetcore.cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -88,6 +79,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
