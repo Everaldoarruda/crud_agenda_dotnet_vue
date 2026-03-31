@@ -17,7 +17,7 @@ Este projeto consiste em uma API  para gerenciar uma agenda de contatos, constru
   
 * **Backend:**
 
-* **.NET 6**
+* **.NET **
 
 * **Entity Framework Core**
 
